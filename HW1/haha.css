@@ -1,0 +1,110 @@
+header{
+    display: flex;
+
+}
+.imgclass{
+    margin: 0 auto;
+}
+.container{
+    justify-content: space-between;
+
+}
+body{
+    margin:0;
+}
+nav{
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    margin-right: 4em;
+    width: 60%;
+    flex-shrink: 6;
+    min-width: 260px;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding:10px;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-shrink: 4;
+    width: 40%;
+    height: 6.25em;
+    min-width: 15.625em;
+    align-items: center;
+}
+#logo h1{
+    min-width: 9.375em;
+    flex-shrink: 4;
+    align-items: center;
+}
+#logo img{
+    width: 6.25em;
+}
+main{
+    max-width: 100%;
+    
+    margin: 2em auto ;
+    align-items: center;
+    width: 80%;
+}
+main h2{
+    margin: 0;
+    max-width: 100%;
+    font-size: 1.5em;
+}
+#bar{
+    
+    min-width: 20%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+#sign_in{
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+    max-width: 100%;
+    font-size: 1.2em;
+}
+#sign_in input{
+    width: 500px;
+    max-width: 100%;
+    line-height: 2em;
+    border-radius: 6px;
+    border: 1px rgb(118,118,118) solid;
+    cursor: pointer;
+}
+#sign_in input:focus{
+    border-color: lightblue;
+    outline:0;
+    box-shadow: 0 0 5px orange;
+}
+.inputlabel{
+    max-width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+.input_item{
+    justify-content: center;
+    max-width: 100%;
+    margin: 1em;
+}
+@media screen and (max-width:900px){
+    header{
+        font-size: 10px;
+    }
+    main{
+        font-size:10px;
+    }
+}
