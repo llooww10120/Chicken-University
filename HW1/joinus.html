@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>memberin</title>
-    <link rel="stylesheet" href="haha.css">
+    <meta name="description" content="Chicken University--make your dream true">
+    <meta name="keywords" content="Chhicken,University,bubble milk tea">
+    <meta name="author" content="Ming">
+    <meta name="robot" content="all">
+    <title>成為雞排</title>
+    <link rel="stylesheet" href="./style/chicken.css">
 </head>
 <body>
     <header >
         <div id="logo">
-            <img src="./img/logo.png" >
-            <h1 class="container">野雞大學</h1>
+            <a href="./home.html"><img id="logo_icon" src="./img/logo.png" >
+                <img id="col" src="./img/colname.png">
+                <img id="col" src="./img/shi.png"></a>
         </div>
         <nav>
             <ul>
@@ -39,14 +44,34 @@
             </div>
             <div class="input_item">
                 <p class="inputlabel"><label for="date">製造日期：</label></p>
-                <p class="inputlabel"><input type="date" id="date" name="date" ></p>
+                <p class="inputlabel"><input type="date" id="date" name="date" min="2021-01-01" max="2021-04-12"></p>
             </div>
+            <input type="checkbox" id="iknow" name="iknow" value="iknow">我已熟知油炸規範
             <div class="input_item">
-                <p class="inputlabel"><input type="submit" id="submit" name="submit" value="登入"></p>
+                <p class="inputlabel"><input type="button" id="submit" name="submit" value="成為新雞排" onclick="location.href='./memberin.html'"></p>
             </div>
         </form>
     </main>
     <footer id="footer">
+        <div id="contact">
+            <div class="contact1">
+                <h2>聯絡資訊</h2>
+                <ul>
+                    <li>電話：02-12341234</li>
+                    <li>傳真：02-12341234</li>
+                    <li>地址：天龍國天龍市學區學區路一段1號</li>
+                </ul>
+            </div>
+            <div class="contact1">
+                <h2>聯絡資訊</h2>
+                <ul>
+                    <li>電話：02-12341234</li>
+                    <li>傳真：02-12341234</li>
+                    <li>地址：天龍國天龍市學區學區路一段1號</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
         Copyright &copy;四電機三甲黃明勝B10730026
     </footer>
 </body>

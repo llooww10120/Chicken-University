@@ -1,0 +1,245 @@
+
+@font-face 
+{
+    font-family: "Nono";
+    src:  url("./Font/NotoSansTC-Thin.otf")
+}
+
+header{
+    display: flex;
+
+}
+hr{
+    color:darkgray;
+}
+.imgclass{
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    padding: 2em;
+    justify-content: space-between;
+    font-size: 1em;
+}
+body{
+    min-width:600px ;
+    font-family: "Nono";
+    margin:0;
+}
+nav{
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    margin-right: 4em;
+    width: 60%;
+    flex-shrink: 6;
+    min-width: 260px;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding:10px;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-shrink: 4;
+    width: 40%;
+    height: 6.25em;
+    min-width: 15.625em;
+    align-items: center;
+    
+}
+#logo h1{
+    min-width: 9.375em;
+    flex-shrink: 4;
+    align-items: center;
+}
+#logo a{
+    display: flex;
+    align-items: center;
+}
+
+#logo_icon{
+    width: 6.25em;
+}
+#col{
+    width: 10em;
+}
+main{
+    max-width: 100%;
+    
+    margin: 2em auto ;
+    align-items: center;
+    width: 80%;
+}
+main h1{
+    font-size: 6em;
+    text-align: center;
+
+}
+main h2{
+    margin: 0;
+    max-width: 100%;
+    font-size: 1.5em;
+}
+#bar{
+    
+    min-width: 20%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+#sign_in{
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+    max-width: 100%;
+    font-size: 1.2em;
+}
+.input_item input{
+    width: 500px;
+    max-width: 100%;
+    line-height: 2.5em;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+    border: 1px rgb(118,118,118) solid;
+    cursor: pointer;
+}
+#sign_in input:focus{
+    border-color: lightblue;
+    outline:0;
+    box-shadow: 0 0 5px orange;
+}
+.inputlabel{
+    max-width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+.input_item{
+    justify-content: flex-start;
+    max-width: 100%;
+    margin: 1em;
+}
+#iknow{
+    margin-left: 2em;
+    align-self:center;
+}
+.content h1{
+    text-align: center;
+    font-size: 5em;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content p{
+
+    display: flex;
+    font-size: 1.3em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content a{
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+}
+.content img{
+    max-width: 800px;
+    width: 100%;
+}
+#footer{
+    padding: 2em;
+    text-align: center;
+    background-color: lightgray;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.contact1{
+    padding: 2em;
+}
+.contact1 h2{
+    font-size: 1.6em;
+    margin-bottom:0.5em;
+}
+.contact1 ul{
+    margin: 0;
+    padding: 0;
+}
+.contact1 ul li{
+    list-style-type: none;
+}
+
+
+.intro{
+    display: flex;
+    align-items: center;
+}
+.intro p{
+    text-align: center;
+}
+.intro img{
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    width: 20em;
+}
+
+.homeimg{
+    margin-top: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeimg img{
+    width: 100%;
+}
+.homeimg a{
+    width: 50%;
+}
+.homeimg aside{
+    width: 50%;
+    max-width: 50%;
+    padding: 0.5em;
+    text-align: center;
+}
+.homeimg aside a{
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+.homeimg aside h1{
+    font-size:5.5em;
+}
+@media screen and (max-width:900px){
+    header{
+        font-size: 10px;
+    }
+    body{
+        font-size:8px;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .homeimg aside h1{
+        font-size: 3em;
+    }
+    .homeimg aside a{
+        font-size: 1.5em;
+    }
+}
